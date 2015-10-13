@@ -1,7 +1,0 @@
-tipo=vehiculo_espacial
-modelo=GT55
-cilindraje=34000
-n_ejes=0
-n_alas=4
-n_alerones=10
-n_cohetes=4

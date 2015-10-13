@@ -1,4 +1,4 @@
 tipo=vehiculo
-modelo=BR323
-cilindraje=3400
-n_ejes=2
+modelo=JPH10
+n_ejes=3
+cilindraje=1700

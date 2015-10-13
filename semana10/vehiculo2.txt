@@ -1,4 +1,7 @@
-tipo=vehiculo
-modelo=X112
-cilindraje=8700
-n_ejes=3
+tipo=vehiculo_aereo
+modelo=LS423
+n_ejes=2
+cilindraje=17000
+n_alas=2
+n_alerones=4
+flaps=4

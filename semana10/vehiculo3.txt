@@ -1,6 +1,10 @@
-tipo=vehiculo_aereo
-modelo=ZM1
-cilindraje=15700
-n_ejes=1
+tipo=vehiculo_espacial
+modelo=SPY007
+n_ejes=5
+cc_motor=23000
 n_alas=2
 n_alerones=4
+flaps=4
+n_cohetes=3
+capac_astro=6
+tamano_tanque=3500
