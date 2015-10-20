@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="titulo_articulo_a_comprar">
+          <property name="text">
+           <string>ARTÍCULO</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListView" name="lista_articulo_a_comprar">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="titulo_datos_del_comprador">
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>DATOS DEL COMPRADOR</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QLabel" name="titulo_nombre">
+            <property name="text">
+             <string>Nombre Completo</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="nombre_completo_comprador">
+            <property name="text">
+             <string>Jacobo Posada Hoyos</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="titulo_identificacion">
+            <property name="text">
+             <string>No. de Identificación</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="identificacion_comprador">
+            <property name="text">
+             <string>1053853611</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="titulo_direccion">
+            <property name="text">
+             <string>Dirección</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="direccion_comprador"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="titulo_telefono">
+            <property name="text">
+             <string>Teléfono</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="telefono_comprador">
+            <property name="inputMask">
+             <string/>
+            </property>
+            <property name="text">
+             <string>3002321858</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="titulo_pago">
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>PAGO</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="titulo_codigo_de_compra">
+          <property name="text">
+           <string>Código de Compra</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListView" name="lista_codigo_de_compra">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="titulo_precio_articulo">
+          <property name="text">
+           <string>Precio Artículo</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListView" name="lista_precio_articulo_comprar">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="titulo_estado">
+          <property name="text">
+           <string>Estado</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListView" name="estado_articulo">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="agradecimiento">
+          <property name="text">
+           <string>¡ GRACIAS POR UTILIZAR ESTE SERVICIO !</string>
+          </property>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QPushButton" name="boton_confirmar_compra">
+          <property name="layoutDirection">
+           <enum>Qt::RightToLeft</enum>
+          </property>
+          <property name="text">
+           <string>CONFIRMAR COMPRA </string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../Downloads/1445295903_shopping_cart.png</normaloff>../Downloads/1445295903_shopping_cart.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>30</width>
+            <height>28</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="titulo_compras">
+        <property name="font">
+         <font>
+          <family>Fixedsys</family>
+          <pointsize>50</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>COMPRAS</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="icono_compras">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../Downloads/1445295903_shopping_cart.png</pixmap>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
